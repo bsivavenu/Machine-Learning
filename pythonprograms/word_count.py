@@ -6,10 +6,13 @@ Created on Fri Feb 16 16:49:23 2018
 """
 
 import collections
-c = collections.Counter("hey how are you")
-for i in c:
-    print(i,':',c[i],end='\t') 
+def find(array):
+    c = collections.Counter(array)
+    for i in c:
+        print(i,':',c[i],end='\t') 
 
+x = [1,1,2,2,3,4,4]
+find(x)
 
 def fre(word):
     dict = {}
@@ -19,6 +22,8 @@ def fre(word):
             dict[n] += 1
         else:
             dict[n] = 1
-    return dict
+    return print('\n',dict)
 
-fre('lord')
+fre([3,4,4,5,6,6,7,7,7,8])
+fre('a tree on a flat earth is wrong sentance')
+find('a tree on a flat earth is wrong sentance')

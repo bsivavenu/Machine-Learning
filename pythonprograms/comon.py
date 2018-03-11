@@ -11,7 +11,7 @@ def comn(a1,a2):
     i = 0
     j = 0
     com = []
-    while i < len(a1) & j < len(a2):
+    while i < len(a1) and j < len(a2):
         if a1[i] == a2[j]:
             com.append(a1[i])
             i += 1
@@ -22,7 +22,8 @@ def comn(a1,a2):
             i += 1
     return com
 
-a1 = [1,2,3]
-a2 = [1,2]
+a2 = [1,2,4,8,9]
+a1 = [1,2,3,8]
 
-print(comn(a1,a2))  
+print(comn([1,2,3,8],[1,2,4,8,9]))  
+print(comn(a1,a2))

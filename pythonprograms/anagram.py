@@ -4,7 +4,7 @@ Created on Fri Feb 23 18:31:22 2018
 
 @author: HP
 """
-
+# Anagram is coverting a sentance to new sentance with out adding extra charecter from old sentanc
 def anagram(s1, s2):
     s1 = s1.replace(' ', '').lower()
     s2 = s2.replace(' ', '').lower()    

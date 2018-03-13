@@ -1,17 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar  7 22:31:23 2018
+Created on Mon Mar 12 21:08:14 2018
 
 @author: HP
 """
-x = [1,2,3,1,2,3,5]
-seen =set()
-count = 0
-seen =set(x)
-print(seen)
-for i in x:
-    if i in seen:
-        count += 1
-    else:
-        i+=1
-    print(x[i],count)
+
+class A:
+    com_name = "siva"
+#    name
+    
+    def __init__(self):
+        self.name = "bravi"
+        self.sal = 123.0
+#    @classmethod
+    def details(self):
+        print(A.com_name)
+        name = "ravi"
+        sal = 125.0
+        print(name,sal)
+        
+a = A()
+a.details()

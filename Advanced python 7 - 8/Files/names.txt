@@ -1,0 +1,13 @@
+Hello Studetns
+
+String movie_names[] = {"Dawn of the Planet of the Apes","District 9","Transformers: Age of Extinction","X-Men: Days of Future Past","The Machinist","The Last Samurai","The Amazing Spider-Man 2","Tangled", "Rush","Drag Me to Hell"};
+
+        int images[] = {R.drawable.one,R.drawable.two,R.drawable.three,R.drawable.four,R.drawable.five,R.drawable.six,R.drawable.seven,R.drawable.eight,R.drawable.nine,R.drawable.ten};
+
+String dir_names[]= {"Matt Reeves","Neill Blomkamp","Michael Bay","Bryan Singer","Brad Anderson","Edward Zwick","Marc Webb","Nathan Greno","Ron Howard","Sam Raimi"};
+
+int dir_images[] = {R.drawable.one_1,R.drawable.two_2,R.drawable.three_3,R.drawable.four_4,R.drawable.five_5,R.drawable.six_6,R.drawable.seven_7,R.drawable.eight_8,R.drawable.nine_9,R.drawable.ten_10};
+
+String re_date[] = {"24-12-2014","23-1-2013","22-7-2014","24-12-2014","12-6-2014","23-1-2013","22-7-2014","24-12-2014","12-6-2014","23-10-2018"};
+
+String values = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"}
